@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AñadirContenido.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Comprobar.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Crear.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EliminarContenido.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Visualizar.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AñadirContenido.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Comprobar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Crear.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EliminarContenido.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Visualizar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
