@@ -13,9 +13,6 @@ using System.Windows.Shapes;
 
 namespace Ficheros
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -43,12 +40,6 @@ namespace Ficheros
             {
                 this.Close();
             }
-        }
-
-        private void btnAbrirVisualizar_Click(object sender, RoutedEventArgs e)
-        {
-            Visualizar ventanaVisualizar = new Visualizar();
-            ventanaVisualizar.Show();
         }
 
         private void btnAbrirAñadirContenido_Click(object sender, RoutedEventArgs e)

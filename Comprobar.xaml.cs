@@ -15,9 +15,6 @@ using System.Windows.Shapes;
 
 namespace Ficheros
 {
-    /// <summary>
-    /// Lógica de interacción para Comprobar.xaml
-    /// </summary>
     public partial class Comprobar : Window
     {
         public Comprobar()

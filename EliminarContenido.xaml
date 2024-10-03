@@ -6,7 +6,53 @@
         xmlns:local="clr-namespace:Ficheros"
         mc:Ignorable="d"
         Title="EliminarContenido" Height="450" Width="800">
-    <Grid Background="#FF2B2828">
-        
+    <Grid Background="#FF362F2F">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label x:Name="txlTitulo_EliminarLinea" Content="Eliminar Última Línea &#xD;&#xA;" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" FontFamily="Segoe UI Black" Background="#00000000" Foreground="White" Height="40"/>
+
+        <Grid Grid.Row="1" Grid.Column="0" HorizontalAlignment="Stretch">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Stretch" Margin="20,0">
+                <Button x:Name="btnEliminarLinea" Content="Eliminar Última Línea" Cursor="Hand" FontFamily="Cascadia Code SemiBold" Click="EliminarLinea_Click" FontSize="20" HorizontalAlignment="Stretch" Margin="0,5" Background="#FF615454" Foreground="White">
+                    <Button.Effect>
+                        <DropShadowEffect/>
+                    </Button.Effect>
+                </Button>
+                <Button x:Name="btnBorrarContenido" Content="Resetear" Cursor="Hand" FontFamily="Cascadia Code SemiBold" Click="btnBorrarContenido_Click" FontSize="20" Foreground="White" Background="#FFE3A00E" HorizontalAlignment="Stretch" Margin="0,5">
+                    <Button.Effect>
+                        <DropShadowEffect/>
+                    </Button.Effect>
+                </Button>
+                <Button x:Name="btnCerrar" Content="Cerrar" Cursor="Hand" FontFamily="Cascadia Code SemiBold" Click="btnCerrarPrograma_Click" FontSize="20" Background="#FFA90000" Foreground="White" HorizontalAlignment="Stretch" Margin="0,5">
+                    <Button.Effect>
+                        <DropShadowEffect/>
+                    </Button.Effect>
+                </Button>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="1" Margin="20" Background="#FF201E1E">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Label x:Name="lblInputNombreArchivo" Content="Introduce el nombre del archivo:" Foreground="White" FontFamily="Cascadia Code" FontSize="16" Margin="0,-24,0,44" HorizontalAlignment="Left"/>
+            <TextBox x:Name="txbNombreArchivo" Grid.Row="0" TextWrapping="Wrap" FontFamily="Cascadia Code" FontSize="16" Margin="10,10,10,10" Grid.RowSpan="2"/>
+        </Grid>
     </Grid>
 </Window>

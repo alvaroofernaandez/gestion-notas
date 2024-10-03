@@ -19,9 +19,6 @@
     <Compile Update="EliminarContenido.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Visualizar.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="AñadirContenido.xaml">
@@ -37,9 +34,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Visualizar.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

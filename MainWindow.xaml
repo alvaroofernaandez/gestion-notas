@@ -23,17 +23,12 @@
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
-        <Button x:Name="btnAbrirVisualizar" Content="Abrir notas" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20" FontFamily="Cascadia Code SemiBold" Height="55" Width="209" Background="#FF615454" Foreground="White" Margin="0,346,0,0" Click="btnAbrirVisualizar_Click">
+        <Button x:Name="btnAbrirAñadirContenido" Content="Añadir contenido" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20" FontFamily="Cascadia Code SemiBold" Height="55" Width="209" Background="#FF615454" Foreground="White" Margin="0,344,0,0" Click="btnAbrirAñadirContenido_Click">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
-        <Button x:Name="btnAbrirAñadirContenido" Content="Añadir contenido" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20" FontFamily="Cascadia Code SemiBold" Height="55" Width="209" Background="#FF615454" Foreground="White" Margin="0,406,0,0" Click="btnAbrirAñadirContenido_Click">
-            <Button.Effect>
-                <DropShadowEffect/>
-            </Button.Effect>
-        </Button>
-        <Button x:Name="btnAbrirEliminarContenido" Content="Eliminar contenido" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="18" FontFamily="Cascadia Code SemiBold" Height="55" Width="209" Background="#FF615454" Foreground="White" Margin="0,466,0,0" Click="btnAbrirEliminarContenido_Click">
+        <Button x:Name="btnAbrirEliminarContenido" Content="Eliminar contenido" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="18" FontFamily="Cascadia Code SemiBold" Height="55" Width="209" Background="#FF615454" Foreground="White" Margin="0,404,0,0" Click="btnAbrirEliminarContenido_Click">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
